@@ -39,7 +39,3 @@ function test(callback) {
 		callback();
 	});
 }
-
-test(function() {
-	console.log('triggered');
-});
