@@ -1,10 +1,10 @@
 {
 	"env": {
 		"browser": true,
-		"node": true
+		"node": true,
+		"es6": true
 	},
 	"parserOptions": {
-		"ecmaVersion": 6,
 		"sourceType": "script"
 	},
 	"extends": ["kentcdodds/possible-errors", "kentcdodds/best-practices"],
