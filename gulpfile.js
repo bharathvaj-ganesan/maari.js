@@ -1,13 +1,12 @@
 'use strict';
 
-/* eslint no-console:0 */
-
 const gulp = require('gulp');
 const babel = require('gulp-babel');
 const rename = require('gulp-rename');
 const uglify = require('gulp-uglify-es').default;
 const banner = require('gulp-banner');
 const pkg = require('./package.json');
+const clean = require('gulp-clean');
 
 const bannerString =
 	'/*\n' +
@@ -21,8 +20,10 @@ const bannerString =
 	' * Released under the <%= pkg.license %> license.\n' +
 	'*/\n\n';
 
+gulp.task('clean', () => {
+	return gulp.src('dist/*.js', { read: false }).pipe(clean());
+});
 gulp.task('release', () => {
-	console.log('Build Started');
 	return gulp
 		.src('./maari.js')
 		.pipe(
