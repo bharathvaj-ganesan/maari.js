@@ -7,6 +7,7 @@ const uglify = require('gulp-uglify-es').default;
 const banner = require('gulp-banner');
 const pkg = require('./package.json');
 const clean = require('gulp-clean');
+const jasmineBrowser = require('gulp-jasmine-browser');
 
 const bannerString =
 	'/*\n' +
@@ -23,6 +24,14 @@ const bannerString =
 gulp.task('clean', () => {
 	return gulp.src('dist/*.js', { read: false }).pipe(clean());
 });
+
+gulp.task('test', function() {
+	return gulp
+		.src(['maari.js', 'spec/*Spec.js'])
+		.pipe(jasmineBrowser.specRunner())
+		.pipe(jasmineBrowser.server({ port: 8888 }));
+});
+
 gulp.task('release', () => {
 	return gulp
 		.src('./maari.js')
