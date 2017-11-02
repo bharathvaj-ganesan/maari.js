@@ -1,6 +1,10 @@
 'use strict';
 
 (window => {
+	/**
+	 * Executes the callback only if adblocker is present
+	 * @callback  callback
+	 */
 	const maari = callback => {
 		const fakeAdFiles = ['ad.min.js', 'showAds.js', 'ads.min.js'];
 		fakeAdFiles.forEach(fakeAdFile => {
