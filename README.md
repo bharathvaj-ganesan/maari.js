@@ -39,7 +39,7 @@ If any adblocker is detected then only the callback will be executed;
 
 ## FAQ
 
-### Why yet another type adblock detector library?
+### Why yet another adblock detector library?
 
 There are many adblock detector modules on npm, unfortunately, I couldn't find any that fit my needs:
 
