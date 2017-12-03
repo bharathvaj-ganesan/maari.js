@@ -2,8 +2,8 @@
 
 (window => {
 	/**
-	 * Executes the callback only if adblocker is present
-	 * @callback  callback
+	 * Executes the callback if adblocker is present.
+	 * @param {function} callback The first number.
 	 */
 	const maari = callback => {
 		const fakeAdFiles = ['ad.min.js', 'showAds.js', 'ads.min.js'];
