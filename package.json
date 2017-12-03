@@ -1,18 +1,19 @@
 {
 	"name": "maari",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Detect the presence of ad blocker plugins in browser",
 	"main": "dist/maari.min.js",
 	"scripts": {
 		"lint": "eslint maari.js",
-		"release": "gulp clean && gulp release",
+		"test": "gulp test",
+		"release": "gulp test && gulp clean && gulp release",
 		"commit": "git-cz"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/bharathvaj1995/maari.js.git"
 	},
-	"keywords": [],
+	"keywords": ["ad", "adblock", "adblocker", "addetection", "adblockerdetection", "detectads"],
 	"author": "Bharath <bharathvaj1995@gmail.com> (http://www.bharathvaj.me/)",
 	"license": "MIT",
 	"bugs": {
