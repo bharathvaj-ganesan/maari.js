@@ -8,6 +8,7 @@
 * Zero Dependency
 * Supports all modern browsers except IE
 * Simple vanilla JavaScript
+* No CDN support
 
 ## FAQ
 
