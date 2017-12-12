@@ -3,9 +3,10 @@
 	"version": "1.0.0",
 	"description": "Detect the presence of ad blocker plugins in browser",
 	"main": "dist/maari.min.js",
+	"files": ["dist"],
 	"scripts": {
 		"lint": "eslint maari.js",
-		"test": "gulp test",
+		"validate": "gulp test",
 		"release": "gulp test && gulp clean && gulp release",
 		"commit": "git-cz"
 	},
@@ -25,6 +26,7 @@
 			"path": "cz-conventional-changelog"
 		},
 		"ghooks": {
+			"pre-commit": "npm run release",
 			"commit-msg": "validate-commit-msg"
 		}
 	},

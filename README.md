@@ -1,4 +1,5 @@
 [![Built with Gulp](https://img.shields.io/badge/built%20with-gulp-red.svg)](https://gulpjs.com/)
+[![Served with jsdelivr](https://img.shields.io/badge/cdn-jsdelivr-brightgreen.svg)](https://www.jsdelivr.com/)
 
 ## MAARI JS
 
@@ -9,6 +10,18 @@
 * Supports all modern browsers except IE
 * Simple vanilla JavaScript
 * No CDN support
+
+## Usage
+
+```js
+const alertUser = () => {
+	alert('Please turn off the ad blocker');
+};
+
+maari(alertUser);
+```
+
+If any adblocker is detected then only the callback will be executed;
 
 ## FAQ
 
