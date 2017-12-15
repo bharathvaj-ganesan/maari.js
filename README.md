@@ -3,6 +3,10 @@
 
 ## MAARI JS
 
+A tiny and simple browser library for detecting ad blocker presence.
+
+![](media/maari.gif)
+
 ## Features
 
 * Simple and Tiny library (Size in Bytes)
