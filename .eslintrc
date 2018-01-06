@@ -1,0 +1,13 @@
+{
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 6
+	},
+	"extends": ["kentcdodds/possible-errors", "kentcdodds/best-practices"],
+	"rules": {
+		"global-require": "off"
+	}
+}
