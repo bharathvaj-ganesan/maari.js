@@ -2,6 +2,8 @@
 
 ## MAARI JS
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bharathvaj1995/maari.js.svg)](https://greenkeeper.io/)
+
 ## Features
 
 * Simple and Tiny library (Size in Bytes)
