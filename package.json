@@ -1,13 +1,14 @@
 {
 	"name": "maari",
-	"version": "1.0.0",
+	"version": "0.0.0-semantically-released",
 	"description": "Detect the presence of ad blocker plugins in browser",
 	"main": "dist/maari.min.js",
 	"files": ["dist"],
 	"scripts": {
 		"lint": "eslint maari.js",
 		"validate": "gulp test",
-		"release": "gulp test && gulp clean && gulp release",
+		"semantic-release": "semantic-release",
+		"release": "gulp clean && gulp release",
 		"commit": "git-cz"
 	},
 	"repository": {
@@ -48,6 +49,7 @@
 		"gulp-uglify": "3.0.0",
 		"gulp-uglify-es": "0.1.9",
 		"npm-run-all": "^4.1.2",
+		"semantic-release": "11.0.2",
 		"validate-commit-msg": "2.14.0"
 	}
 }

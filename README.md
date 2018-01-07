@@ -1,11 +1,13 @@
 [![Built with Gulp](https://img.shields.io/badge/built%20with-gulp-red.svg)](https://gulpjs.com/)
 [![Served with jsdelivr](https://img.shields.io/badge/cdn-jsdelivr-brightgreen.svg)](https://www.jsdelivr.com/)
 
-## MAARI JS
+# MAARI JS
 
-A tiny and simple browser library for detecting ad blocker presence.
+> A tiny and simple browser library for detecting ad blocker presence. If any of viewers use adblockers just say the swag "senjiruven"
 
 ![](media/maari.gif)
+
+Note: It's famous mass dialogue from South Indian film.
 
 ## Features
 
@@ -15,7 +17,13 @@ A tiny and simple browser library for detecting ad blocker presence.
 * Simple vanilla JavaScript
 * No CDN support
 
-## Usage
+### Getting started
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/maari/dist/maari.min.js"></script>
+```
+
+### Usuage
 
 ```js
 const alertUser = () => {
