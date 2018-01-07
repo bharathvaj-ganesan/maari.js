@@ -3,6 +3,7 @@
 (window => {
 	/**
 	 * Executes the callback if adblocker is present.
+	 *
 	 * @param {function} callback The first number.
 	 */
 	const maari = callback => {
