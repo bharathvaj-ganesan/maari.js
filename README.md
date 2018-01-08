@@ -13,11 +13,10 @@ Note: It's famous mass dialogue from South Indian film.
 
 ## Features
 
-* Simple and Tiny library (Size in Bytes)
+* Simple and Tiny library (Less than 1KB in size)
 * Zero Dependency
-* Supports all modern browsers except IE
-* Simple vanilla JavaScript
-* No CDN support
+* Currenty Supports all modern browsers except IE
+* CDN support
 
 ### Getting started
 
