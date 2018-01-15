@@ -34,7 +34,7 @@ const alertUser = () => {
 maari(alertUser);
 ```
 
-If any adblocker is detected then only the callback will be executed;
+Callback will be executed if adblock is detected.
 
 ## FAQ
 
