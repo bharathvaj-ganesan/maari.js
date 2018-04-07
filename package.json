@@ -12,6 +12,7 @@
 		"semantic-release": "semantic-release",
 		"release": "gulp clean && gulp release && npm run semantic-release",
 		"commit": "git-cz"
+		"test" : "node test.js"
 	},
 	"repository": {
 		"type": "git",
