@@ -24,7 +24,7 @@ Note: It's famous mass dialogue from South Indian film.
 <script src="https://cdn.jsdelivr.net/npm/maari/dist/maari.min.js"></script>
 ```
 
-### Usuage
+### Usage
 
 ```js
 const alertUser = () => {
